@@ -6,8 +6,8 @@ const elem = <span>This is React Element</span>
 
 const Title = () => (
   <h1 className="head">
-  {elem}
-     Namste React using JSX 🚀
+
+       Namste React using JSX 🚀
   </h1>
   
 );
@@ -16,6 +16,8 @@ const number = 5000;
 const HeadingComponent = () => (
   <div id="container">
     <Title />
+    {Title()}
+    <Title></Title>
     <h2>{number}</h2>
     <h1>Namste React Function Component</h1>
   </div>
