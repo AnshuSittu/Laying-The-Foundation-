@@ -155,3 +155,10 @@ const heading = () => (
 {data}
 <h1>hello</h1>
 )
+
+
+    <Title />
+    {Title()}
+    <Title></Title>
+	
+> these are the way of calling function in JSX	
